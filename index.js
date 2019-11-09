@@ -2,7 +2,7 @@ function rand() {
   return Math.round(Math.random());
 }
 
-let limit = API.getActionPointsCount
+let limit = API.getActionPointsCount()
 let pos = API.getCurrentPosition();
 let size = API.getArenaSize()
 let enemies = API.getEnemies().map( en => en.position )
