@@ -13,7 +13,7 @@ function diff( a , b ) {
 
 function danger( pos ) {
   return enemies.some( en => {
-    return diff( pos , en ) < 3
+    return diff( pos , en ) <= 3
   } )
 }
 
