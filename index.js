@@ -28,7 +28,7 @@ for(let en of enemies ) {
 
 if(!go) {
    const opts = []
-   for( let x = 0 ; ++x ; x < size )for( let y = 0 ; ++y ; x <= size ) {
+   for( let x = 0 ; ++x ; x < size )for( let y = 0 ; ++y ; y < size ) {
      if( diff(pos,{x,y}) > 2) continue
      if(danger({x,y})) continue
      opts.push({x,y})
